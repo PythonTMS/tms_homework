@@ -1,0 +1,1 @@
+print((lambda **kwargs: {k*2: v for k, v in kwargs.items()})(odin=1, dva=2))
